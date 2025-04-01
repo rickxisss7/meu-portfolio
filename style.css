@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Faculty+Glyphic&family=Germania+One&family=Kalam:wght@300;400;700&family=Kurale&family=Merienda&family=Oswald:wght@200..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Tektur:wght@400..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+background-color: black;
+color: white;
+}
+
+.flex  {
+display: flex;
+}
+
+.cabecalho {
+padding: 50px 4%;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+} 
+
+.nome h1 {
+bottom: 30px;
+position: relative;
+font-family: "Tektur", sans-serif; 
+font-weight: 500;
+color: rgb(255, 56, 41);
+
+}
+
+.menu ul {
+list-style: none;
+display: flex;
+gap: 90px;
+position: absolute;
+bottom: 80.2%;
+left: 50%;
+}
+
+
+.menu li {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+cursor: pointer;
+}
+.menu li:hover{
+color: rgb(255, 56, 41);
+transition: .3s;
+
+} /* fim do cabeçalho*/
+
+main section{
+padding: 50px 4%;
+margin-top: 135px;
+}
+
+main section h1 {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 32px;
+
+}
+
+main section h1 span{
+color: rgb(255, 56, 41);
+}
+
+main section h2 {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px;
+}
+
+main section h2 span{
+ color: rgb(255, 56, 41);
+    }
+
+main section .descricao {
+color:rgb(255, 250, 242);
+text-align: justify;
+font-family: "Winky Sans", sans-serif;
+font-size: 14px;
+}
+main section .descricao span {
+color: rgb(255, 56, 41);
+}
+
+.img {
+position: absolute;
+top: 140px;
+left: 130px;
+}
+
+.perfil img{
+border-radius: 100px;
+animation: flutuar 2s ease-in-out infinite; /* 2 segundos, ciclo infinito */
+border: 1px solid rgba(219, 24, 24, 0.479); /* Borda vermelha */
+box-shadow: 0 0 15px rgb(255, 56, 41); /* Sombra suave */
+
+}
+
+
+
+@media screen and (max-width: 1030px) {
+.menu ul {
+display: none;
+}
+
+
+main section {
+margin-top: 70px;
+}
+.nome h1 {
+bottom: 65px;
+}
+.img{
+top: 90px;
+}
+}
+
+
+@keyframes flutuar {
+    0% {
+      transform: translateY(0); /* Começa na posição original */
+    }
+    50% {
+      transform: translateY(-20px); /* Sobe 20px */
+    }
+    100% {
+      transform: translateY(0); /* Volta para a posição original */
+    }
+  }
+
+/*rgb(255, 56, 41);*/
