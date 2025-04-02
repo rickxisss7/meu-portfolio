@@ -44,10 +44,19 @@ cursor: pointer;
 color: rgb(255, 56, 41);
 transition: .3s;
 
-} /* fim do cabeçalho*/
+} 
+.gitt {
+background-color: aliceblue;
+width: 50px;
+border-radius: 80px;
+border: 1px solid white;
+display: none;
+}
+
+/* fim do cabeçalho*/
 
 main section{
-padding: 50px 4%;
+padding: 50px 4%; 
 margin-top: 135px;
 }
 
@@ -63,7 +72,10 @@ color: rgb(255, 56, 41);
 
 main section h2 {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 18px;
+font-size: 22px;
+margin-top: -20px;
+
+
 }
 
 main section h2 span{
@@ -72,9 +84,10 @@ main section h2 span{
 
 main section .descricao {
 color:rgb(255, 250, 242);
-text-align: justify;
+
 font-family: "Winky Sans", sans-serif;
-font-size: 14px;
+font-size: 18px;
+
 }
 main section .descricao span {
 color: rgb(255, 56, 41);
@@ -94,24 +107,74 @@ box-shadow: 0 0 15px rgb(255, 56, 41); /* Sombra suave */
 
 }
 
+.meio-do-site .title2 {
+text-align: center;
+
+}
+
+
+.title2 {
+position: relative;
+margin-bottom: -50px;
+
+}
+
+
+.meio-do-site .img2 {
+text-align: center;
+
+}
+
+.img3 {
+width: 650px;
+padding: 50px 4%;
+display: block;
+    margin: 0 auto;
+
+}
 
 
 @media screen and (max-width: 1030px) {
 .menu ul {
 display: none;
 }
+main section .descricao {
+position: relative;
+bottom: 45px;
+text-align: center;
 
+}
 
 main section {
-margin-top: 70px;
+margin-top: 90px;
 }
 .nome h1 {
 bottom: 65px;
+
 }
 .img{
 top: 90px;
 left: 90px;
 }
+.img3 {
+position: relative;
+width: 100%;
+margin: 0 auto;
+right: 16px;
+}
+.gitt {
+display: block;
+background-color: aliceblue;
+width: 30px;
+border-radius: 80px;
+border: 1px solid white;
+position: relative;
+left: 320px;
+bottom: 175px;
+cursor: pointer;
+
+}
+
 }
 
 
