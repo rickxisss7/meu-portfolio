@@ -102,8 +102,8 @@ left: 130px;
 .perfil img{
 border-radius: 100px;
 animation: flutuar 2s ease-in-out infinite; /* 2 segundos, ciclo infinito */
-border: 1px solid rgba(219, 24, 24, 0.479); /* Borda vermelha */
-box-shadow: 0 0 15px rgb(255, 56, 41); /* Sombra suave */
+
+box-shadow: 0 0 20px rgb(255, 56, 41); /* Sombra suave */
 
 }
 
@@ -144,13 +144,22 @@ bottom: 45px;
 text-align: center;
 
 }
+.title2 h1 {
+text-align: center;
+}
 
 main section {
-margin-top: 90px;
+margin-top: 50px;
 }
 .nome h1 {
 bottom: 65px;
 
+
+}
+
+.title h1 {
+left: 30px;
+position: relative;
 }
 .img{
 top: 90px;
@@ -158,9 +167,14 @@ left: 90px;
 }
 .img3 {
 position: relative;
-width: 100%;
+width: 350px;
 margin: 0 auto;
 right: 16px;
+padding-left: 25px;
+}
+
+.meio {
+margin-top: 100px;
 }
 .gitt {
 display: block;
